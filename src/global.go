@@ -94,8 +94,11 @@ func zero(slice *[]byte) {
 //
 // [HIBPs' password search by range]: https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange
 func isPwValid(pw []byte) (bool, uint32) {
+	// deepcode ignore InsecureHash: The pwned passwords API only supports SHA-1 or NTLM hashes. I went with SHA-1. The actual hash is only used for querying the pwned passwords API, relativizing this issue.
 	h := sha1.New()
 	_, err := h.Write(pw)
+
+	defer h.Reset()
 
 	if err != nil {
 		return false, 0
@@ -103,8 +106,6 @@ func isPwValid(pw []byte) (bool, uint32) {
 
 	finalHash := strings.TrimSpace(strings.ToUpper(hex.EncodeToString(h.Sum(nil))))
 	prefix, suffix := finalHash[:5], finalHash[5:]
-
-	h.Reset()
 
 	resp, err := http.Get(fmt.Sprint("https://api.pwnedpasswords.com/range/", prefix))
 

@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/m1ck6x/PwdMan?style=for-the-badge)](https://github.com/m1ck6x/PwdMan/blob/main/LICENSE) ![Code size](https://img.shields.io/github/languages/code-size/m1ck6x/PwdMan?style=for-the-badge) ![Snyk security](https://img.shields.io/badge/Snyk_security-monitored-8C46BD?style=for-the-badge&logo=snyk&link=https%3A%2F%2Fsnyk.io%2Ftest%2Fgithub%2Fm1ck6x%2FPwdMan%2Fbadge.svg)
+
 # PwdMan
 
 This project resembles a _simplistic_ **terminal user interface** for managing _passwords_ written in [Go] using [Bubble Tea], [Bubbles], [Lip Gloss] and the [GO Windows DPAPI Wrapper] supporting both **_Windows_** and **_Linux_**. _MacOS_ support is not planned.
