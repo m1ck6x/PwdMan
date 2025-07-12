@@ -1,4 +1,5 @@
 # Exclude any executables
 release/
+previews/
 *.exe
 *.so

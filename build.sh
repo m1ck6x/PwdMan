@@ -1,5 +1,6 @@
 #!/bin/bash
 
-go build -o release/PwdMan ./src
+cd src
+go build -o ../release/PwdMan .
 
 echo "Build done"

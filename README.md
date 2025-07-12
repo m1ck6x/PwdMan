@@ -43,10 +43,10 @@ Here is a step-by-step guide:
 ## Previews
 
 Preview of the menu:
-![Preview: menu of the TUI](previews/menu.png)
+![Preview: menu of the TUI](https://github.com/user-attachments/assets/abbca899-0277-4e28-8111-99d58fad46be)
 
 Preview of _PwdMan_ when editing an entry / account:
-![Preview: edit screen of the TUI](previews/entry.png)
+![Preview: edit screen of the TUI](https://github.com/user-attachments/assets/746ddbb0-bc4d-4d80-9085-f818129a1bd4)
 
 ## License
 

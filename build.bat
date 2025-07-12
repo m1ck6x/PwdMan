@@ -1,6 +1,7 @@
 title "Building PwdMan..."
 
-go build -o release/PwdMan.exe ./src
+cd src
+go build -o ../release/PwdMan.exe .
 
 echo "Build done"
 
