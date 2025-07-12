@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/m1ck6x/PwdMan?style=for-the-badge)](https://github.com/m1ck6x/PwdMan/blob/main/LICENSE) ![Code size](https://img.shields.io/github/languages/code-size/m1ck6x/PwdMan?style=for-the-badge) ![Snyk security](https://img.shields.io/badge/Snyk_security-monitored-8C46BD?style=for-the-badge&logo=snyk&link=https%3A%2F%2Fsnyk.io%2Ftest%2Fgithub%2Fm1ck6x%2FPwdMan%2Fbadge.svg)
+[![License](https://img.shields.io/github/license/m1ck6x/PwdMan?style=for-the-badge)](https://github.com/m1ck6x/PwdMan/blob/main/LICENSE) ![Code size](https://img.shields.io/github/languages/code-size/m1ck6x/PwdMan?style=for-the-badge) [![Snyk security](https://img.shields.io/badge/Snyk_security-monitored-8C46BD?style=for-the-badge&logo=snyk)](https://snyk.io/test/github/m1ck6x/PwdMan/badge.svg)
 
 # PwdMan
 
